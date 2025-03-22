@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Менюшка*/
+nav {
+    width: 1440px;
+    height: 106px;
+    position: absolute;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 500px 0 0;
+    display: flex;
+    justify-content: left;
+}
+nav li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #404040;
+    padding: 10px 10px;
+    font-family: Montserrat, sans-serif;
+}
+.menu {
+    display: flex;
+    width: 358px;
+    height: 45px;
+    left: 682px;
+    top: 23px;
+    padding: 23px 0px 0px 34px;
+    position: absolute;
+}
+.icon {
+    position: absolute;
+    top: 23px;
+    left: 200px;
+}
+.Minimal {
+    position: relative;
+    top: 23px;
+    left: 240px;
+    font-family: Oswald, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color:  #333333;
+}
+
+/*секции*/
+.sec1 {
+    width: 1440px;
+    height: 391px;
+    overflow: hidden;
+    top: 106px;
+    position: relative;
+    background-image: url('img/ocaen.png');
+}
+.sec2 {
+    width: 1440px;
+    height: 650px;
+    position: absolute;
+    overflow: hidden;
+}
+.sec3 {
+    width: 1440px;
+    height: 1469px;
+    top: 1042px;
+    position: absolute;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+.sec4 {
+    width: 1440px;
+    height: 517px;
+    top: 2475px;
+    position: absolute;
+    background-image: url("img/IMAGE2.png");
+}
+
+
+/*1 секция*/
+.One {
+    width: 940px;
+    height: 195px;
+    top: 98px;
+    left: 250px;
+    color: white;
+    position: relative;
+}
+.one1 {
+    width: 672px;
+    height: 55px;
+    top: 7px;
+    left: 134px;
+    position: absolute;
+}
+.one1 p {
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+}
+.one2 {
+    width: 432px;
+    height: 55px;
+    top: 62px;
+    left: 254px;
+    position: absolute;
+}
+.one2 p {
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+}
+.one3 {
+    top: 145px;
+    left: 430px;
+    position: absolute;
+}
+.one4 {
+    width: 225px;
+    height: 20px;
+    top: 172px;
+    left: 358px;
+    position: absolute;
+}
+.one4 p {
+    font-family: Vollkorn, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/*2 секция*/
+.Two {
+    width: 940px;
+    height: 487px;
+    top: 135px;
+    left: 250px;
+    position: relative;
+}
+/*заголовок*/
+.two1 {
+    width: 394px;
+    height: 36px;
+    top: 10px;
+    left: 273px;
+    position: relative;
+}
+.two1 p{
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+/*карточки*/
+.two2 {
+    width: 960px;
+    height: 368px;
+    top: 119px;
+    left: -10px;
+    padding: 0px 0.05px 0px 0px;
+    position: relative;
+    display: flex;
+}
+.block {
+    width: 320px;
+    height: 368px;
+}
+/*картинки*/
+.b img {
+    position: relative;
+    top: 10px;
+    left: 86px;
+}
+/*первый текст*/
+.b11 {
+    width: 119px;
+    height: 20px;
+    top: 57px;
+    left: 100px;
+    position: relative;
+}
+.b11 p{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.b21 {
+    width: 173px;
+    top: 57px;
+    left: 73px;
+    position: relative;
+}
+.b21 p{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.b31 {
+    width: 193px;
+    height: 20px;
+    top: 57px;
+    left: 73px;
+    position: relative;
+}
+.b31 p{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+/*второй текст*/
+.b12 {
+    width: 297px;
+    height: 66px;
+    top: 75px;
+    left: 11px;
+    position: relative;
+}
+.b12 p{
+    font-family: Vollkorn, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+/*3 секция*/
+.Three {
+    width: 940px;
+    height: 1330px;
+    top: 69px;
+    left: 250px;
+    position: relative;
+}
+.three1 {
+    width: 230px;
+    height: 36px;
+    top: 10px;
+    left: 355px;
+    position: relative;
+}
+.three1 p {
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.group1 {
+    width: 960px;
+    height: 403px;
+    top: 119px;
+    left: -10px;
+    padding: 0px 10.05px 20px 10px;
+    display: flex;
+    position: relative;
+}
+.group2 {
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+}
+.group3 {
+   
+    display: flex;
+    position: relative;
+}
+.card {
+    width: 299px;
+    height: 383px;
+    padding-right: 20px;
+    position: relative;
+}
+.text {
+    width: 300px;
+    height: 84px;
+}
+.text1 {
+    width: 91px;
+    height: 20px;
+    top: 19px;
+    left: 110px;
+    position: relative;
+}
+.text1 p {
+    color: #333333;
+    font-family: Vollkorn, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.text2 {
+    width: 147px;
+    height: 20px;
+    top: 23px;
+    left: 80px;
+    position: relative;
+}
+.text2 p {
+    color: #333333;
+    font-family: Vollkorn, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/*4секция*/
+.Four {
+    top: 68.95px;
+    position: relative;
+    width: 940px;
+    height: 379px;
+    left: 250px;
+    gap: 0px;
+    opacity: 0px;
+}
+.four1 {
+    position: absolute;
+    width: 245px;
+    height: 36px;
+    top: 10.05px;
+    left: 348px;
+}
+.four1 p{
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+}
+.column1 {
+    position: relative;
+    top: 100px;
+}
+.img1 {
+    position: absolute;
+    background-image: url("img/metka.png");
+    height: 150px;
+    width: 150px;
+    left: 100px;
+    background-repeat: no-repeat;
+}
+.column2 {
+    position: relative;
+    left: 340px;
+    top: 100px;
+}
+.img2 {
+    position: absolute;
+    background-image: url("img/pismo.png");
+    height: 150px;
+    width: 150px;
+    left: 100px;
+    background-repeat: no-repeat;
+}
+.column3 {
+    position: relative;
+    left: 700px;
+    top: 100px;
+}
+.img3 {
+    position: absolute;
+    background-image: url("img/heart.png");
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+}
+
+
+/*футер*/
+footer {
+    width: 1440px;
+    height: 260px;
+    background-color: black;
+    position: absolute;
+    top: 2992px;
+}
+.footer1 {
+    width: 43px;
+    height: 46px;
+    top: 106px;
+    left: 698px;
+    position: relative;
+}
+.footer2 {
+    width: 391px;
+    height: 22px;
+    top: 122px;
+    left: 524px;
+    position: relative;
+}
+.footer2 p {
+    font-family: Vollkorn, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgb(198, 194, 194);
+}
+
+
